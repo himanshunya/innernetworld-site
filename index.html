@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Innernet World</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #002f4b, #005f6b);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      background-attachment: fixed;
+    }
+
+    .logo {
+      width: 160px;
+      margin-bottom: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.4);
+    }
+
+    h1 {
+      font-size: 4em;
+      font-weight: bold;
+      background: linear-gradient(90deg, orange, red, blue, skyblue);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+    }
+
+    .tagline {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      font-weight: 600;
+      color: #f0f0f0;
+    }
+
+    .launch {
+      font-size: 2em;
+      font-weight: bold;
+      color: #ffd9ec;
+      text-shadow: 0 0 10px #ff99cc;
+      margin-bottom: 10px;
+    }
+
+    .email {
+      font-size: 1.1em;
+      color: #e0e0e0;
+      margin-bottom: 30px;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .social-icons a {
+      background: rgba(255,255,255,0.1);
+      padding: 10px 16px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      border: 1px solid rgba(255,255,255,0.2);
+      transition: all 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      background: #00ffe0;
+      color: black;
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #00ffe0;
+    }
+
+    .social-icons img {
+      width: 24px;
+      height: 24px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.5em;
+      }
+      .tagline {
+        font-size: 1.1em;
+      }
+      .launch {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img class="logo" src="logo.png" alt="Innernet World Logo" />
+
+  <h1>INNERNET WORLD</h1>
+  <div class="tagline">Truth. Tech. Soul.</div>
+  <div class="launch">✨ Big Reveal Coming Soon ✨</div>
+  <div class="email">📩 founder@innernetworld.com</div>
+
+  <div class="social-icons">
+    <a href="https://x.com/InnernetWorld" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968958.png" alt="X"> X
+    </a>
+    <a href="https://instagram.com/innernetworld" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"> Instagram
+    </a>
+    <a href="https://medium.com/@innernetworld" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Medium_logo_Monogram.svg" alt="Medium"> Medium
+    </a>
+    <a href="https://medium.com/innernet-world" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Medium_logo_Monogram.svg" alt="Publication"> Publication
+    </a>
+  </div>
+
+</body>
+</html>
